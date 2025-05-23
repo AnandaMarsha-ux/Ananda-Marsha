@@ -21,14 +21,15 @@ int main() {
     float angka1,angka2;
 
     printf("pilih operasi:\n");
-    printf("1. Tambah\n");
-    printf("2. Kurang\n");
-    printf("3. kali\n");
-    printf("4. bagi\n");
+    printf("1.Tambah\n");
+    printf("2.Kurang\n");
+    printf("3.kali\n");
+    printf("4.bagi\n");
 
     printf("Masukkan pilihan (1/2/3/4):");
     scanf("%d",&pilihan);
-    printf("Masukkan Angka Pertama:");
+    
+    printf("Masukkan Angka pertama:");
     scanf("%d",&angka1);
 
     printf("Masukkan angka kedua:");
